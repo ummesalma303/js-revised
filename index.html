@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .body{
+            margin: 20px;
+        }
 button {
   font-family: "helvetica neue", helvetica, sans-serif;
   letter-spacing: 1px;
@@ -21,7 +24,35 @@ button {
     </style>
 </head>
 <body>
-    <button  class="button" type="button">player: </button>
-    <script src="./script.js"></script>
+    <div class="body">
+
+        <div class="">
+            <button  class="button" type="button">player: </button>
+        </div>
+        <div class="">
+            <h2>Number guessing game</h2>
+            <p> We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+            <div class="">
+                <label for="guessField">Enter a guess: </label>
+                <input type="number" id="guessField" class="guessField" />
+                <input type="submit" value="Submit guess" class="guessSubmit" />
+            </div>
+            <!-- result -->
+            <div class="resultParas">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHi"></p>
+              </div>
+              
+        </div>
+
+        <!-- variable -->
+         <div class="">
+            <button id="button_A">Press me</button>
+            <h3 id="heading_A"></h3>
+         </div>
+    </div>
+    <!-- <script src="./script.js"></script> -->
+    <script src="./practce.js"></script>
 </body>
 </html>
