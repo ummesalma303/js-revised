@@ -29,3 +29,10 @@ let num1 = 10
 let myNumber = num2 + num1 / 8 + 2;
 
 console.log(myNumber)
+
+
+const myInt = 5;
+const myFloat = 6.667;
+typeof myInt;
+
+console.log(typeof myFloat)
